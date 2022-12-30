@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        fieldset{
+            width: 30%;
+            margin: 0 auto;
+        }
+        fieldset>div{
+            display: flex;
+            justify-content: space-between;
+            padding: 25px;
+        }
+        input{
+            width: 50%;
+        }
+        p{
+            text-align: center;
+        }
+        button{
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>BMI</h1>
+        <fieldset>
+            <div>
+                <label for="age">Age:</label>
+                <input type="text" id="age" placeholder="Enter Your Age">
+            </div>
+            <div>
+                <label for="height">Height:</label>
+                <input type="text" id="height" placeholder="Enter Your Height CM">
+            </div>
+            <div>
+                <label for="weight">Weight:</label>
+                <input type="text" id="weight" placeholder="Enter Your Weight KG">
+            </div>
+            <div>
+                <button id="btn">Click Me</button>
+            </div>
+                <p id="demo"></p>
+        </fieldset>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
